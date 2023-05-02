@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameWinningScreen : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void ReturnToMainMenu()
     {
-        
+        SceneManager.LoadScene("MainMenu");
     }
-
-    // Update is called once per frame
-    void Update()
+    public void RestartGame()
     {
-        
+        SceneManager.LoadScene("GameLevel1");
     }
 }
+
+
+    
