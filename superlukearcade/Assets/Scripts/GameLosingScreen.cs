@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameLosingScreen : MonoBehaviour
 {
-    public void RestartGame()
+    public void RestartGame() // varaible for restart button 
     {
-        SceneManager.LoadScene("GameLevel1");
+        SceneManager.LoadScene("GameLevel1"); // this changes the scene back to the game level at the start of level 1 after losing the game
     }
 
-    public void ReturnToMainMenu()
+    public void ReturnToMainMenu() // varaible for main menu button
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu"); // this changes the scene back to the main menu after clickin gth hutton and losing the game
     }
 }
