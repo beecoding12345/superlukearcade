@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void Play()
+    public void Play() // varaible for the play button
     {
-        SceneManager.LoadScene("GameLevel1");
+        SceneManager.LoadScene("GameLevel1"); // changes scene to the game level after clicking tthe play button 
     }
 }
