@@ -2,30 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Timer : MonoBehaviour
 {
+    //gets the starting time and the loading time
     float currentTime = 0f;
-    float startingTime = 4f;
-    public
+    float startingTime = 180f;
+
+    [SerializeField] TMP_Text CountdownText;
 
 
-    void Start()    // Start is called before the first frame update
+
+    private void Start()
     {
         currentTime = startingTime;
     }
 
-    void Update()
+    private void Update()
     {
-        //currentTime -= 1 * Timer.deltaTime;
-        //countdownText.text = currentTime.ToString("0");
+        currentTime -= 1 * Time.deltaTime;
+        CountdownText.text = currentTime.ToString("0");
+
+        //code for when the timer hits 0 it stays at 0 and ends the game. And
 
         if (currentTime <= 0)
+
         {
+            currentTime = 0;
             SceneManager.LoadScene("GameLosingScreen");
         }
     }
-   
-    
-    
+
+
+
 }

@@ -19,12 +19,12 @@ public class ScoreScript : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D coinball)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (coinball.tag == "coinball")
+        if (other.tag == "Mycoinball")
         {
             ScoreNum += 1;
-            Destroy(coinball.gameObject);
+            Destroy(other.gameObject);
             myScoreText.text = "Score" + ScoreNum;
 
         }

@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
-      value: coinball
+      value: Coinball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
@@ -5688,7 +5688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (10)
+      value: 'Coinball '
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -5943,11 +5943,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (1)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
-      value: coinball
+      value: Mycoinball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
@@ -6016,7 +6016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (3)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -6029,20 +6029,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 218023838}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &265429183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265429179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
---- !u!58 &265429184
+--- !u!58 &265429183
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6123,7 +6110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (4)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -6845,19 +6832,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 1572658447}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &462313996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462313992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &462313997
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7819,7 +7793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (5)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -7901,20 +7875,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 715942155}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &804919815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804919811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
---- !u!58 &804919816
+--- !u!58 &804919815
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7935,19 +7896,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 162349313}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &806343369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806343365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &806343370
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8029,7 +7977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (7)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -8511,19 +8459,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 1166262477}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &868261780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868261776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &868261781
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8658,19 +8593,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 811972778}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &910163245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910163241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &910163246
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9156,7 +9078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (9)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -9346,7 +9268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.7
+      value: 30.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9411,6 +9333,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_Name
       value: Luke Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1603246306389932429, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9480,7 +9406,7 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 1
+  m_UseAutoMass: 0
   m_Mass: 6.174728
   m_LinearDrag: 0
   m_AngularDrag: 0.05
@@ -9502,8 +9428,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f32f5dc037bc4489473c2a1af5d00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 2
-  JumpForce: 1
+  MovementSpeed: 5
+  JumpForce: 5
+--- !u!114 &1095648247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095648242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScoreText: {fileID: 822489486}
 --- !u!1001 &1166262477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9569,7 +9508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (2)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -9651,20 +9590,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 289644020}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1179474930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179474926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
---- !u!58 &1179474931
+--- !u!58 &1179474930
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9769,19 +9695,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 204344647}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1276490222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276490217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &1276490223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9946,7 +9859,6 @@ GameObject:
   - component: {fileID: 1352097113}
   - component: {fileID: 1352097115}
   - component: {fileID: 1352097114}
-  - component: {fileID: 1352097116}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -9994,7 +9906,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Timer : 00.00'
+  m_text: 'Timer : 000'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10071,20 +9983,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352097112}
   m_CullTransparentMesh: 1
---- !u!114 &1352097116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352097112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0ec73425d94fe4e8093ce251993ed1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTime: 0
-  startingTime: 4
 --- !u!1001 &1381934274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10228,19 +10126,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 2036505288}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1390405756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390405752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &1390405757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10322,7 +10207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (6)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -10395,7 +10280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (12)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -10684,19 +10569,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 1053358038}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1547792523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547792519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &1547792524
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10778,7 +10650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (8)
+      value: Coinball
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
@@ -10993,6 +10865,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377e432f6ce89548864f50d21bfb197, type: 3}
+--- !u!1 &1663371654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+  m_PrefabInstance: {fileID: 17796363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &1663371659
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663371654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5191302
 --- !u!1001 &1748809557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11205,19 +11098,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 1413933626}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1841646018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841646014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
 --- !u!58 &1841646019
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11490,20 +11370,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
   m_PrefabInstance: {fileID: 1403212526}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2028505301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028505297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e699e12e7492158459312b704b052fad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScoreText: {fileID: 822489486}
---- !u!58 &2028505302
+--- !u!58 &2028505301
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11653,7 +11520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
-      value: Coinball (11)
+      value: 'Coinball '
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_TagString
