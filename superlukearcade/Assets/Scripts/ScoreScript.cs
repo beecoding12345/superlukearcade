@@ -21,13 +21,14 @@ public class ScoreScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D coinball)
     {
-        if (coinball.tag == "mycoinball")
+        if (coinball.tag == "coinball")
+        {
+            ScoreNum += 1;
+            Destroy(coinball.gameObject);
+            myScoreText.text = "Score" + ScoreNum;
 
+        }
 
-        ScoreNum += 1;
-        Destroy(coinball.gameObject);
-        myScoreText.text = "Score" + ScoreNum;
-
-
+       
     }
 }

@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     float currentTime = 0f;
     float startingTime = 4f;
+    public
 
 
     void Start()    // Start is called before the first frame update
@@ -16,8 +17,8 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        currentTime -= 1 * Timer.deltaTime;
-        countdownText.text = currentTime.ToString("0");
+        //currentTime -= 1 * Timer.deltaTime;
+        //countdownText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
         {
