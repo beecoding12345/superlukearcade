@@ -12,7 +12,10 @@ public class Timer : MonoBehaviour
 
     [SerializeField] TMP_Text CountdownText;
 
-
+    public Timer(TMP_Text countdownText)
+    {
+        CountdownText = countdownText;
+    }
 
     private void Start()
     {
