@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ScoreScript : MonoBehaviour
 {
-    public Text myScoreText;
+    public TMP_Text myScoreText;
     private int ScoreNum;
 
     // Start is called before the first frame update

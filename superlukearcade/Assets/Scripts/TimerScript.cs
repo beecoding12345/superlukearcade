@@ -16,8 +16,8 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        currentTime -= 1 * Timer.deltaTime;
-        countdownText.text = currentTime.ToString("0");
+        //currentTime -= 1 * Timer.deltaTime;
+        //countdownText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
         {
