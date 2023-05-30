@@ -2916,7 +2916,7 @@ GameObject:
   - component: {fileID: 921204120}
   - component: {fileID: 921204119}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Water Barrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6708,7 +6708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
-      value: Spike
+      value: Spike 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
