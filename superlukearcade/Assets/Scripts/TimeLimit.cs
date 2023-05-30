@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 
 public class TimeLimit : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class TimeLimit : MonoBehaviour
     public string GameLosingScreen;
 
     private float startTime;
-    private Text timerDisplay;
+    private TMP_Text timerDisplay;
 
 
 
@@ -20,7 +22,7 @@ public class TimeLimit : MonoBehaviour
     void Start()
     {
 
-        timerDisplay = GetComponent<Text>();
+        timerDisplay = GetComponent<TMP_Text>();
 
         startTime = Time.time;
 
@@ -33,9 +35,12 @@ public class TimeLimit : MonoBehaviour
 
         float timePassed = Time.time - startTime;
 
-        //timerDisplay.text = (Mathf.CeilToInt(time.Limit - timePassed)).ToString();
+        timerDisplay.text = Mathf.CeilToInt(timeLimit - timePassed).ToString();
 
-        //if
+        if (timePassed >= timeLimit)
+        {
+            SceneManager.LoadScene(GameLosingScreen);
+        }
 
 
     }

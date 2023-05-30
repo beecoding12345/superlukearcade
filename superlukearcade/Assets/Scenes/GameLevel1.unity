@@ -3548,11 +3548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -545.4
+      value: -540.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.5
+      value: -24.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3685,7 +3685,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!50 &1095648244
 Rigidbody2D:
@@ -4258,12 +4258,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1352097112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0ec73425d94fe4e8093ce251993ed1, type: 3}
+  m_Script: {fileID: 11500000, guid: f0da28b575d1c874ba3cf48d81e6a7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTime: 0
-  startingTime: 0
-  CountdownText: {fileID: 1352097114}
+  timeLimit: 180
+  GameLosingScreen: GameLosingScreen
 --- !u!1001 &1381934274
 PrefabInstance:
   m_ObjectHideFlags: 0
