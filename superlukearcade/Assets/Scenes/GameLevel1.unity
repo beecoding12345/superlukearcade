@@ -507,6 +507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: 'Coinball '
@@ -580,6 +584,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -653,6 +661,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -980,6 +992,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -2268,6 +2284,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -2471,6 +2491,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -2566,7 +2590,7 @@ RectTransform:
   m_GameObject: {fileID: 822489484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.40774, y: 0.40774, z: 0.40774}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 671137824}
@@ -2574,7 +2598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -836, y: 495}
+  m_AnchoredPosition: {x: -207, y: 129}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &822489486
@@ -3330,7 +3354,7 @@ RectTransform:
   m_GameObject: {fileID: 1040779983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.41864294, y: 0.47846, z: 0.47846}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 948354268}
@@ -3341,7 +3365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -533, y: 499}
+  m_AnchoredPosition: {x: -99, y: 130}
   m_SizeDelta: {x: 197.67, y: 41.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040779985
@@ -4040,6 +4064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -4509,7 +4537,7 @@ RectTransform:
   m_GameObject: {fileID: 1352097112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.43426, y: 0.43426, z: 0.43426}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 671137824}
@@ -4517,7 +4545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 424, y: 498}
+  m_AnchoredPosition: {x: 218, y: 129}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352097114
@@ -4715,6 +4743,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -4788,6 +4820,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -5436,6 +5472,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: Coinball
@@ -6424,6 +6464,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efffc52d64c453347ae3e35a740b8cba, type: 2}
     - target: {fileID: 919132149155446097, guid: e8b2cd3eebf109944afc5d7d8a88baa5, type: 3}
       propertyPath: m_Name
       value: 'Coinball '
@@ -6712,34 +6756,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
---- !u!1 &5849425982622734836 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
-  m_PrefabInstance: {fileID: 5849425982622734835}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &5849425982622734837
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5849425982622734836}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
