@@ -11,7 +11,7 @@ public class PortalScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Made a if collison tag so when the player hits the portal 1 in level 1 it loads game level 2 and comes out portal 2.
-        if (collision.tag == "Player")
+        if (collision. tag == "Player")
         {
             SceneManager.LoadScene("GameLevel2");
         }
@@ -20,6 +20,12 @@ public class PortalScript : MonoBehaviour
         if (collision. tag == "Player")
         {
             SceneManager.LoadScene("GameWinningScreen");
+        }
+
+        // Made a if collision tage so when the player falls into the Water Barrier at level 1 or level 2 then it goes to game losing screen.
+        if (collision. tag == "Player")
+        {
+            SceneManager.LoadScene("GameLosingScreen");
         }
     }
 }
