@@ -1753,6 +1753,7 @@ GameObject:
   - component: {fileID: 629436878}
   - component: {fileID: 629436877}
   - component: {fileID: 629436876}
+  - component: {fileID: 629436879}
   m_Layer: 0
   m_Name: Portal 2
   m_TagString: Untagged
@@ -1853,6 +1854,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &629436879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629436875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1095d223b6e730c4d86dd475c86497ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: GameLevel1
 --- !u!1001 &633980913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5369,6 +5383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myScoreText: {fileID: 1736947544}
+  shouldReset: 0
 --- !u!1001 &1740938394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5907,6 +5922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myScoreText: {fileID: 1736947544}
+  shouldReset: 0
 --- !u!114 &1827359015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5920,7 +5936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 25
-  JumpForce: 65
+  JumpForce: 100
 --- !u!50 &1827359016
 Rigidbody2D:
   serializedVersion: 4
@@ -5938,8 +5954,8 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 5
   m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
+  m_Interpolate: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!61 &1827359017

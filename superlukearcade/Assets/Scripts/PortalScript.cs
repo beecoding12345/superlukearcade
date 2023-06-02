@@ -6,18 +6,15 @@ using UnityEngine.SceneManagement;
 public class PortalScript : MonoBehaviour
 {
 
-    
+    public string levelToLoad;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Made a if collison tag so when the player hits the portal 1 in level 1 it loads game level 2 and comes out portal 2.
-        if (collision. tag == "Player")
-        {
-            SceneManager.LoadScene("GameLevel2");
-        }
+        //Debug.Log("Player hit the portal 1 ");
 
-       
-
-       
+        SceneManager.LoadScene(levelToLoad);
     }
+
+
+
 }

@@ -7,9 +7,10 @@ using TMPro;
 public class ScoreScript : MonoBehaviour
 {
     public TMP_Text myScoreText;
-    private int ScoreNum;
+    public bool shouldReset = false;
 
-    // Start is called before the first frame update
+    private static int ScoreNum;
+
     void Start()
     {
 
@@ -17,7 +18,21 @@ public class ScoreScript : MonoBehaviour
         myScoreText.text = "Score : " + ScoreNum;
 
 
+
+        if (shouldReset == true)
+        {
+            ScoreNum = 0;
+        }
+
+        myScoreText.text = ScoreNum.ToString();
+
+
+
+
     }
+
+   
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
