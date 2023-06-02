@@ -1982,6 +1982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668384285}
   - component: {fileID: 668384284}
+  - component: {fileID: 668384286}
   m_Layer: 0
   m_Name: Water Barrier
   m_TagString: Untagged
@@ -2056,6 +2057,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &668384286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668384283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b977091283c4545b071ade3075d9c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &712338541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
@@ -3165,7 +3178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019844791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1095d223b6e730c4d86dd475c86497ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 01277eb48afa0c64eb6c214cf8eeebf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1037159223 stripped
@@ -4991,7 +5004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1609049541709491866, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.55459
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 1609049541709491866, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5784,7 +5797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1913
+      value: -555
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5923,7 +5936,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

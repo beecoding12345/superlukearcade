@@ -7,6 +7,7 @@ TagManager:
   - coinball
   - Coinball
   - Mycoinball
+  - Water
   layers:
   - Default
   - TransparentFX
