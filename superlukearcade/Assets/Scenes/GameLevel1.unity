@@ -3689,7 +3689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -28
+      value: -26.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2b9a683604a9c66418081e14cc49fff5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3839,7 +3839,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 0
@@ -3859,7 +3859,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 25
   JumpForce: 300
-  playerIsOnTheGround: 1
 --- !u!114 &1095648247
 MonoBehaviour:
   m_ObjectHideFlags: 0
