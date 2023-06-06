@@ -11,9 +11,13 @@ public class TimeLimit : MonoBehaviour
 
     public float timeLimit;
     public string GameLosingScreen;
+    
 
-    private float startTime;
+    
     private TMP_Text timerDisplay;
+    public bool shouldReset = false;
+
+    public static float startTime;
 
 
 
@@ -24,7 +28,17 @@ public class TimeLimit : MonoBehaviour
 
         timerDisplay = GetComponent<TMP_Text>();
 
-        startTime = Time.time;
+        
+
+        if (shouldReset == true)
+        {
+            startTime = Time.time; 
+        }
+
+
+
+
+
 
 
     }

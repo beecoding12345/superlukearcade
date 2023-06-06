@@ -14,9 +14,8 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
 
-        ScoreNum = 0;
-        myScoreText.text = "Score : " + ScoreNum;
-
+        
+        
 
 
         if (shouldReset == true)
@@ -24,7 +23,7 @@ public class ScoreScript : MonoBehaviour
             ScoreNum = 0;
         }
 
-        myScoreText.text = ScoreNum.ToString();
+        myScoreText.text = "Score : " + ScoreNum;
 
 
 
@@ -40,7 +39,7 @@ public class ScoreScript : MonoBehaviour
         {
             ScoreNum += 1;
             Destroy(other.gameObject);
-            myScoreText.text = "Score" + ScoreNum;
+            myScoreText.text = "Score : " + ScoreNum;
 
         }
 
