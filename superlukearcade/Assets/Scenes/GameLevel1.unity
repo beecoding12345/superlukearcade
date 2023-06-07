@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 23
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -345,6 +349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 31
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -434,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -756,6 +768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 19
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -845,6 +861,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -1323,6 +1343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 22
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -1413,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 27
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -1502,6 +1530,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -1613,6 +1645,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -1892,6 +1928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 29
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -2075,6 +2115,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -2448,6 +2492,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -2872,6 +2920,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -4041,6 +4093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 18
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4130,6 +4186,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -4715,6 +4775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 24
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -5131,6 +5195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 30
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -5379,6 +5447,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -5946,6 +6018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 17
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -6216,6 +6292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 28
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -6305,6 +6385,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
@@ -6396,6 +6480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike 37
       objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -6485,6 +6573,10 @@ PrefabInstance:
     - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_Name
       value: Spike 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5849425982622734837, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
       propertyPath: m_IsTrigger
