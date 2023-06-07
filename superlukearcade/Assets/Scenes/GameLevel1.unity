@@ -6809,6 +6809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1001 &5849425982622734835

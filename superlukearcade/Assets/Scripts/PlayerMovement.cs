@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float MovementSpeed = 2;
     public float JumpForce = 1;
     private  Rigidbody2D _rigidbody;
+    private bool isJumping;
     
 
     // Start is called before the first frame update
@@ -22,19 +23,19 @@ public class PlayerMovement : MonoBehaviour
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
             _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
+            isJumping = true;
+
         }
+    }
 
-
-
-        
-    
-        
-    
-
-
-
-}
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            isJumping = false;
+        }
+    }
 }
