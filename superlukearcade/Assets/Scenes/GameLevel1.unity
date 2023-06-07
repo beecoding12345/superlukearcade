@@ -270,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1001 &52370201
@@ -914,6 +918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1 &265429179 stripped
@@ -1073,6 +1081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1001 &324957244
@@ -1220,6 +1232,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2580,6 +2596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1 &822489484
@@ -3209,6 +3229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1001 &960221882
@@ -3268,6 +3292,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3837,13 +3865,13 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 5
-  m_LinearDrag: 0
+  m_LinearDrag: 10
   m_AngularDrag: 0.05
-  m_GravityScale: 7
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1095648246
 MonoBehaviour:
@@ -3857,8 +3885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f32f5dc037bc4489473c2a1af5d00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 25
-  JumpForce: 300
+  MovementSpeed: 30
+  JumpForce: 3000
 --- !u!114 &1095648247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4246,6 +4274,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5164,6 +5196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
+      value: Platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
 --- !u!1001 &1457028251
@@ -5508,6 +5544,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5947,6 +5987,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
       propertyPath: m_Name
+      value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817954946456597586, guid: 6ee08bf7b3458a247b7c53cef541a338, type: 3}
+      propertyPath: m_TagString
       value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
