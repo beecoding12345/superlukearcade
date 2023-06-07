@@ -2017,9 +2017,10 @@ GameObject:
   - component: {fileID: 668384285}
   - component: {fileID: 668384284}
   - component: {fileID: 668384286}
+  - component: {fileID: 668384287}
   m_Layer: 0
   m_Name: Water Barrier
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2103,6 +2104,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b977091283c4545b071ade3075d9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &668384287
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668384283}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &712338541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5340026389646719589, guid: 5a7a3e54cadb31d499f3795b1a21cd0a, type: 3}
@@ -5996,8 +6023,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f32f5dc037bc4489473c2a1af5d00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 25
-  JumpForce: 100
+  MovementSpeed: 30
+  JumpForce: 3000
 --- !u!50 &1827359016
 Rigidbody2D:
   serializedVersion: 4
@@ -6010,15 +6037,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
+  m_Mass: 5
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 7
+  m_GravityScale: 100
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 0
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1827359017
 BoxCollider2D:
   m_ObjectHideFlags: 0
