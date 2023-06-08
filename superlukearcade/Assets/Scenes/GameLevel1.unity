@@ -3960,7 +3960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f32f5dc037bc4489473c2a1af5d00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 8
+  MovementSpeed: 100
   JumpForce: 3000
 --- !u!114 &1095648247
 MonoBehaviour:
