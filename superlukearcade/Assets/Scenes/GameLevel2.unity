@@ -6019,7 +6019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f32f5dc037bc4489473c2a1af5d00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 5
+  MovementSpeed: 8
   JumpForce: 3000
 --- !u!50 &1827359016
 Rigidbody2D:
