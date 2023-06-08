@@ -10,7 +10,7 @@ public class WaterBarrier : MonoBehaviour
         // Made a if collison tag so when the player hits the portal 1 in level 1 it loads game level 2 and comes out portal 2.
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene("GameLosingScreen");
+            SceneManager.LoadScene("GameLosingScreen"); // loads the game losing screen once this if statment happens
         }
 
 
