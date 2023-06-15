@@ -152,7 +152,7 @@ RectTransform:
   m_GameObject: {fileID: 18196323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.71715, y: 0.71715, z: 0.71715}
+  m_LocalScale: {x: 1.0911437, y: 1.0911437, z: 1.0911437}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1884535087}
@@ -161,7 +161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132.8, y: -85.5}
+  m_AnchoredPosition: {x: 176, y: -129}
   m_SizeDelta: {x: 160, y: 55.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18196325
@@ -299,7 +299,7 @@ RectTransform:
   m_GameObject: {fileID: 1185504288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69947, y: 0.69947, z: 0.69947}
+  m_LocalScale: {x: 1.1755292, y: 1.1755292, z: 1.1755292}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1996698046}
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.7, y: -85.2}
+  m_AnchoredPosition: {x: -248, y: -128}
   m_SizeDelta: {x: 160, y: 55.7302}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185504290
@@ -736,7 +736,7 @@ RectTransform:
   m_GameObject: {fileID: 1884535086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65528, y: 0.65528, z: 0.65528}
+  m_LocalScale: {x: 0.8174617, y: 0.8174617, z: 0.8174617}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 18196324}
@@ -879,7 +879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.4, y: 65}
+  m_AnchoredPosition: {x: -9.4, y: 193}
   m_SizeDelta: {x: 196.4913, y: 134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988087168
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Congrats You Completed The Game!!!
+  m_text: Congrats You Completed  Both Levels You Completed the GameThe Game!!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
