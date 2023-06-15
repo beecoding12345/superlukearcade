@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void Quit() // variable for quit the game
     {
-        Application.Quit();
+       Application.Quit();
     }
 }
 
