@@ -9,4 +9,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("GameLevel1"); // changes scene to the game level after clicking tthe play button 
     }
+
+    public void Quit() // variable for quit the game
+    {
+        Application.Quit();
+    }
 }
+
